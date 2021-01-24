@@ -1,0 +1,33 @@
+{
+  "name": "figma-plugin-boilerplate",
+  "description": "bolierplate for sigma plugin by create-react-app",
+  "version": "0.0.0",
+  "author": "RaoHai <surgesoft@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scripts/start.js",
+    "build": "rollup -c",
+    "test": "node scripts/test.js"
+  },
+  "files": [
+    "dist/plugin.js",
+    "templates"
+  ],
+  "engines": {
+    "node": ">12"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.19.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.1.0",
+    "@rollup/plugin-typescript": "^8.1.0",
+    "@types/rollup": "^0.54.0",
+    "rollup": "^2.38.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "tslib": "^2.1.0",
+    "typescript": "^4.1.3"
+  }
+}
