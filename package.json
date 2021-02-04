@@ -7,7 +7,8 @@
   "scripts": {
     "start": "webpack",
     "build": "webpack --mode=production",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "ci": "npm run build --if-present && npm run test" 
   },
   "files": [
     "dist/plugin.js",
