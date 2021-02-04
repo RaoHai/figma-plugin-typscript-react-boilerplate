@@ -2,6 +2,6 @@
   "name": "awesome-chart",
   "id": "935111727425641179",
   "api": "1.0.0",
-  "main": "dist/ui.js",
+  "main": "dist/code.js",
   "ui": "dist/ui.html"
 }
