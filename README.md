@@ -6,7 +6,7 @@ Open Boliperplate that saves you many days of work when building your own Figma 
 
 - [React](https://github.com/facebook/react)
 - [Typescript](https://github.com/Microsoft/TypeScript)
-
+- [Tailwindcss](https://tailwindcss.com)
 
 ## License
 
