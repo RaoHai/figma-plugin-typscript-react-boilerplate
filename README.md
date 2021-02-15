@@ -15,6 +15,11 @@ All code in this repository is provided under the [MIT License](https://github.c
 ## Project structure
 
 ```
+├── src
+│   ├── app
+│   │   └── style
+│   ├── index.tsx
+│   └── ui.html
 ├── LICENSE.md
 ├── README.md
 ├── package.json
